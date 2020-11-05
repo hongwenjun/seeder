@@ -51,3 +51,21 @@ python3 auto_seeder.py
 ```shell
 python3 faker.py
 ```
+
+------
+作者项目: https://github.com/nickfox-taterli/seeder
+
+- P.S.
+### 注册Mongodb Altas 和 HoneyBadger 获得API_KEY笔记
+![](https://raw.githubusercontent.com/hongwenjun/seeder/master/img/mongodb_honey.png)
+
+### Python 3.7 运行环境
+```
+#  安装pip3 和 更新 pip3 工具和requests库
+apt install python3-pip
+pip3 install --upgrade pip  requests
+
+#  安装所需的 py库
+pip3 install dnspython bson feedparser qbittorrent-api  \
+     pymongo func_timeout honeybadger
+
